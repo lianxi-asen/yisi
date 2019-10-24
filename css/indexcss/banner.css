@@ -1,0 +1,60 @@
+#banner{
+    position: relative;
+}
+.banner-box ul{
+    position: relative;
+    height:642px;
+    /* border:1px solid red;     */
+}
+.banner-box ul li{
+    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.banner-box ul li a{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+}
+.banner-box ul li:nth-child(1){
+    display: block;
+    background-image: url("../../img/index/banner2.jpg");
+}
+.banner-box ul li:nth-child(2){
+    background-image: url("../../img/index/banner.jpg");
+}
+.banner-box ul li:nth-child(3){
+    background-image: url("../../img/index/banner3.png");
+}
+.banner-box ul li:nth-child(4){
+    background-image: url("../../img/index/banner04.jpg");
+}
+.banner-list-box{
+    position:absolute;
+    bottom:3%;
+    right:30%;
+    width: 6%;
+}
+.banner-list-box ul{
+    display:flex;
+    /* height:40px; */
+    /* background-color:red; */
+}
+.banner-list-box ul li{
+    width:20px;
+    height:20px;
+    background-color: #eee;
+    border-radius:50%;
+    margin-right:12px;
+}
+.banner-list-box ul li:last-child{
+    margin-right:0;
+}
+.banner-list-box ul li.active{
+    background-color:red;
+}

@@ -1,0 +1,64 @@
+#header{
+    padding:16px 0;
+    background-color:rgb(245,245,245);
+}
+.header-miiden{
+    display:flex;
+    max-width:1200px;
+    height:64px;
+    /* background-color: red; */
+    margin:0px auto;
+}
+.logo a{
+    display:inline-block;
+    width: 100%;
+    height:100%;
+}
+.header-list{
+    width: 70%;
+    background-color:green;
+    margin-left:40px;
+    background: url("../../img/index/top_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.header-ul{
+    display:flex;
+    margin-top:35px;
+}
+.header-ul li{
+    position: relative;
+    margin-left:44px;
+    font-size:12px;
+}
+.header-ul li .active{
+    color:rgb(232,72,66)
+}
+.header-top li a:hover{
+    border-bottom:1px solid rgb(232,72,66)
+}
+.header-ul .show{
+    display:none;
+    position:absolute;
+    top:12px;
+    left:0px;
+    width:146%;
+    background-color:rgba(248,248,248,0.5);
+}
+.header-ul li:hover .show{
+    display:block;
+}
+.header-ul .show li{
+    font-size:15px;
+    /* margin-left:0;
+    margin-top:10px; */
+    margin:10px 0 0 0;
+    border-bottom:1px solid #ccc;
+}
+.header-ul .show li a{
+    display:inline-block;
+    padding-bottom:10px;
+}
+.header-top .show li a:hover{
+    border-bottom:0;
+    color:rgb(232,72,66)
+}
