@@ -186,11 +186,11 @@
             num = this.index
             console.log(num)
             // //就获取对应num的自定义属性
-            var Dataimgs = LiImgs[num].dataset
+            var Dataimgs = li[num].getAttribute("data-images")
             console.log(Dataimgs)
             // //在给新的num重新复制
-            // lispan[num].classList.add("on")
-            // LiImgs[num].src = Dataimgs.images
+             lispan[num].classList.add("on")
+             LiImgs[num].src = Dataimgs
         }
     }
 })();
