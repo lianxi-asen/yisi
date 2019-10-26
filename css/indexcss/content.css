@@ -184,7 +184,7 @@ body{
 .list-footer li:nth-child(5) div{
     background-image: url("../../img/index/box3_img6.png");
 }
-/*µÚ¶þ×é*/
+/*ï¿½Ú¶ï¿½ï¿½ï¿½*/
 .list-footer-er li:nth-child(1) div{
     background-image: url("../../img/index/box3_img7.png");
 }
@@ -200,7 +200,7 @@ body{
 .list-footer-er li:nth-child(5) div{
     background-image: url("../../img/index/box3_img11.png");
 }
-/*µÚÈý×é*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .list-footer-san li:nth-child(1) div{
     background-image: url("../../img/index/box3_img12.png");
 }
@@ -216,7 +216,7 @@ body{
 .list-footer-san li:nth-child(5) div{
     background-image: url("../../img/index/box3_img6.png");
 }
-/*µÚËÄ×é*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .list-footer-si li:nth-child(1) div{
     background-image: url("../../img/index/box3_img2.png");
 }
@@ -226,14 +226,14 @@ body{
 .list-footer-si li:nth-child(4) div{
     background-image: url("../../img/index/box3_img17.png");
 }
-/*µÚÎå×é*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .list-footer-wu li:nth-child(1) div{
     background-image: url("../../img/index/box3_img19.png");
 }
 .list-footer-wu li:nth-child(3) div{
     background-image: url("../../img/index/box3_img18.png");
 }
-/*ÏÂÃæµÄÊÂhoverµÄÊÂ¼þ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½hoverï¿½ï¿½ï¿½Â¼ï¿½*/
 .list-footer li:first-child:hover div{
     background-image: url("../../img/index/box3_img02.png");
 }
@@ -249,7 +249,7 @@ body{
 .list-footer li:nth-child(5):hover div{
     background-image: url("../../img/index/box3_img06.png");
 }
-/*µÚ¶þ×é*/
+/*ï¿½Ú¶ï¿½ï¿½ï¿½*/
 .list-footer-er li:nth-child(1):hover div{
     background-image: url("../../img/index/box3_img07.png");
 }
@@ -265,7 +265,7 @@ body{
 .list-footer-er li:nth-child(5):hover div{
     background-image: url("../../img/index/box3_img011.png");
 }
-/*µÚÈý×é*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .list-footer-san li:nth-child(1):hover div{
     background-image: url("../../img/index/box3_img13.png");
 }
@@ -281,7 +281,7 @@ body{
 .list-footer-san li:nth-child(5):hover div{
     background-image: url("../../img/index/box3_img06.png");
 }
-/*µÚËÄ×é*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .list-footer-si li:nth-child(1):hover div{
     background-image: url("../../img/index/box3_img02.png");
 }
@@ -291,7 +291,7 @@ body{
 .list-footer-si li:nth-child(4):hover div{
     background-image: url("../../img/index/box3_img017.png");
 }
-/*µÚÎå×é*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .list-footer-wu li:nth-child(1) div{
     background-image: url("../../img/index/box3_img019.png");
 }
@@ -796,4 +796,43 @@ body{
 }
 .wu-li li{
     display:flex;
+}
+.Social-TAB{
+    background: url("../../img/index/box7_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.Social-top-list ul{
+    display:flex;
+}
+.Social-top-list ul{
+    width: 60%;
+    margin:50px auto 0;
+}
+.Social-top-list ul li{
+    width: 20%;
+    /* height: 40px;
+    background-color: red; */
+    margin-right: 48px;
+} 
+.Social-top-list ul li:last-child{
+    margin-right:0;
+}
+.Social-top-list li i{
+    display:inline-block;
+    width: 38px;
+    height: 38px;
+    vertical-align: top;
+    margin-left:8px;
+}
+.Social-top-list li span{
+    display: inline-block;
+    font-size: 17px;
+    margin-top:8px;
+    margin-left:14px;
+    margin:8px 0 0 14px;
+}
+.Social-top-list li i img{
+    width: 100%;
+    height:100%;
+    
 }
