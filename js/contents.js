@@ -143,7 +143,7 @@
     var Finalli = document.querySelectorAll(".Final-TAB li")
     //获取li下面的img
     var image = document.querySelectorAll(".Final-TAB li img")
-    console.log(image)
+    //console.log(image)
     var len = Finalli.length
     var num = 0;
     //for循环当li移入的时候
@@ -161,4 +161,37 @@
     }
     
 
-})()
+})();
+(function(){
+    //获取li
+    var li = document.querySelectorAll(".Social-top-list li")
+    var LiImgs = document.querySelectorAll(".Social-top-list li img")
+    var lispan = document.querySelectorAll(".Social-top-list li span")
+    console.log(LiImgs)
+    //信号量
+    var arrImage = ["../../img/index/box8_ic1.png","../../img/index/box8_ic2.png","../../img/index/box8_ic3.png","../../img/index/box8_ic4.png"]
+    var len = li.length;
+    var num = 0;
+    //初始化化样式
+    
+    lispan[num].classList.add("on")
+    LiImgs[num].src = li[num].dataset.images
+    //循环遍历
+    for(var i=0;i<len;i++){
+        li[i].index = i
+        li[i].onmouseenter = function(){
+            //清除默认的样式
+            lispan[num].classList.remove("on")
+            LiImgs[num].src = arrImage[num]
+            num = this.index
+            console.log(num)
+            // //就获取对应num的自定义属性
+            var Dataimgs = LiImgs[num].dataset
+            console.log(Dataimgs)
+            // //在给新的num重新复制
+            // lispan[num].classList.add("on")
+            // LiImgs[num].src = Dataimgs.images
+        }
+    }
+})();
+

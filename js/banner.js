@@ -10,7 +10,7 @@
     var lidiv = document.querySelectorAll(".icon ul li div")
     //获取上面选项卡的li
     var topLi = document.querySelectorAll(".wu-li-ul li")
-    console.log(topLi)
+   // console.log(topLi)
     // console.log(lidiv)
     // console.log(tabs)
     //定义一个信号量
